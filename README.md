@@ -14,3 +14,19 @@ customerId text PRIMARY KEY,
 productId text,
 amount double
 );**
+
+
+**Add Cassandra and Kafka dependencies inside pom.xml file**
+
+<dependency>
+			<groupId>com.datastax.cassandra</groupId>
+			<artifactId>cassandra-driver-core</artifactId>
+			<version>4.0.0</version>
+			<type>pom</type>
+</dependency>
+
+
+<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+</dependency>
