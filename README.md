@@ -15,7 +15,6 @@ productId text,
 amount double
 );**
 
-
 **Add Cassandra and Kafka dependencies inside pom.xml file**
 
 <dependency>
